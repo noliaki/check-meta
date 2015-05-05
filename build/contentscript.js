@@ -1,0 +1,1 @@
+function updateIcon(e){chrome.tabs.insertCSS(null,{file:"css/img.css"}),chrome.tabs.executeScript(null,{file:"js/content.js"})}chrome.browserAction.onClicked.addListener(updateIcon);
